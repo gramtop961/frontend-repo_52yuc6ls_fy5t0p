@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Features from "./components/Features";
+import Tracks from "./components/Tracks";
 import ApiTester from "./components/ApiTester";
 
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
       <main className="flex-1">
         <Hero />
         <Features />
+        <Tracks />
         <ApiTester />
       </main>
       <footer className="border-t border-black/5 bg-white">
